@@ -67,7 +67,8 @@
    3. MajorGC = FGC
 
 6. 对象分配过程图
-   ![](对象分配过程详解.png)
+![image](https://user-images.githubusercontent.com/82166879/173839723-7e114796-ee2d-4d50-a013-c07258044dd1.png)
+
 
 7. 动态年龄：（不重要）
    https://www.jianshu.com/p/989d3b06a49d
@@ -78,7 +79,8 @@
 
 #### 5.常见的垃圾回收器
 
-![常用垃圾回收器](常用垃圾回收器.png)
+![image](https://user-images.githubusercontent.com/82166879/173839884-26e91394-e9a6-43bc-b241-e2b4ef416926.png)
+
 
 1. JDK诞生 Serial追随 提高效率，诞生了PS，为了配合CMS，诞生了PN，CMS是1.4版本后期引入，CMS是里程碑式的GC，它开启了并发回收的过程，但是CMS毛病较多，因此目前任何一个JDK版本默认是CMS
    并发垃圾回收是因为无法忍受STW
